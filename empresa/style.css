@@ -1,0 +1,100 @@
+/* Cores */
+:root {
+    --cor-primaria: #007bff;
+    --cor-secundaria: #6c757d;
+    --cor-sucesso: #28a745;
+    --cor-erro: #dc3545;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .mt-3 {
+    margin-top: 10px;
+  }
+  
+  .mt-4 {
+    margin-top: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 5px;
+    color: #28a745;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn {
+    color: #87aee0  ;
+    background-color: #007bff;
+  }
+  
+  .btn:hover {
+    background-color: #234d72;
+  }
+  
+  .rounded-pill {
+    border-radius: 50px;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #botao {
+    width: 200px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+  }
+  
