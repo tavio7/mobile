@@ -1,0 +1,61 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais para o corpo do documento */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Estilos para o formulário */
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para os parágrafos */
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para o seletor de turno */
+  select[name="turno"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  /* Estilos para o seletor de intervalos */
+  select[name="horario"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 120px;
+  }
+  
+  /* Estilos para as opções do seletor */
+  select[name="horario"] option {
+    padding: 5px;
+  }
+  
+  /* Estilos para opções selecionadas no seletor de intervalos */
+  select[name="horario"] option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
