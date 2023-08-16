@@ -1,0 +1,63 @@
+/* Estilos gerais para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilos para a área do resultado */
+  #resultado {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para texto enfatizado */
+  strong {
+    color: #007bff;
+  }
+  
+  /* Estilos para números grandes */
+  big {
+    font-size: 1.5em;
+  }
+  
+  /* Estilos para alertas */
+  .alert {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

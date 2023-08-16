@@ -1,0 +1,68 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais para o corpo do documento */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Estilos para o formulário */
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para a legenda */
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para rótulos e campos de entrada */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para o link de cálculo */
+  a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para o campo de IMC */
+  input[name="imc"] {
+    background-color: #f7f7f7;
+    border: none;
+    cursor: not-allowed;
+  }
+  
